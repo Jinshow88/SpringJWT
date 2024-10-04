@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SpringJWT
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url:  jdbc:mariadb://localhost:3306/spring_jwt
+    username: root
+    password: wlsgus21^^
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
